@@ -1,0 +1,32 @@
+/*Generales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/*Contenedores*/
+.nav-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-content {
+    margin: 0;
+    padding: 0;
+}
+
+/*Logos e iconos*/
+nav .brand-logo {
+    font-size: 1.5rem;
+    margin: 2%;
+    padding: 0;
+}
+
+.usuario {
+    width: 70%;
+}
+
+img .imagen {
+    width: 70%;
+}
