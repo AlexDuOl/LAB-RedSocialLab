@@ -48,7 +48,7 @@ Contar con una red social que permita a los usuarios compartir sus experiencias 
 
 ¿Cómo una red social de viajes resuelve las necesidades de los clientes? Para esto generamos un pequeño video:
 
- ![Historia de usuario](https://www.powtoon.com/c/buruBi4eeGP/1/m)
+ [Historia de usuario](https://www.powtoon.com/c/buruBi4eeGP/1/m)
 
 
 Y realizamos el Mockup detallando el flujo de nuestra aplicación:
