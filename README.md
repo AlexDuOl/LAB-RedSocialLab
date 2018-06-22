@@ -51,4 +51,18 @@ Contar con una red social que permita a los usuarios compartir sus experiencias 
  [Historia de usuario](https://www.powtoon.com/c/buruBi4eeGP/1/m)
 
 
-Y realizamos el Mockup detallando el flujo de nuestra aplicación:
+Y realizamos el Mockup detallando el flujo de nuestra aplicación.
+
+Mockup Mobile:
+
+![Mockup Mobile](./assets/images/vistas-mobile.jpg)
+
+Mockup Desktop:
+
+Ver mockup completo en este link: https://marvelapp.com/6i223a6/screen/44637235
+
+Preview
+
+![Mockup Mobile](./assets/images/preview-desktop.png)
+
+
