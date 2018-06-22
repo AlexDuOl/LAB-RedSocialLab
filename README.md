@@ -52,3 +52,7 @@ Contar con una red social que permita a los usuarios compartir sus experiencias 
 
 
 Y realizamos el Mockup detallando el flujo de nuestra aplicación:
+
+![Mockup Mobile](./assets/images/vistas-mobile.jpg)
+
+<iframe src="https://marvelapp.com/6i223a6?emb=1&iosapp=false&frameless=false" width="1440" height="1024" allowTransparency="true" frameborder="0"></iframe>
