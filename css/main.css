@@ -5,6 +5,10 @@
     padding: 0;
   }
 
+  main {
+    padding: 3%;
+  }
+
 /*Contenedores*/
 .nav-wrapper {
     margin: 0;
@@ -16,17 +20,47 @@
     padding: 0;
 }
 
+.card .card-content {
+    padding: 0%;
+}
+
 /*Logos e iconos*/
-nav .brand-logo {
-    font-size: 1.5rem;
-    margin: 2%;
-    padding: 0;
+.material-icons {
+    color:#757575;
+    margin: 0;
+    margin-right: 35%;
+}
+
+.materialboxed {
+    margin-top: 8%;
+
 }
 
 .usuario {
-    width: 70%;
+    margin-left: 15%;
+    padding-top: 10%;
+    width: 80%;
 }
 
 img .imagen {
     width: 70%;
 }
+
+/*Etiqueta*/
+
+div.name {
+    font-size: auto;
+    padding: 0;
+    margin: 0;
+}
+
+div p.etiqueta {
+    font-size: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.newsimagen {
+    padding-left: 4%;
+}
+
