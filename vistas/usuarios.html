@@ -10,68 +10,66 @@
   <title>Viva Mexico Vive</title>
 </head>
 <body>
-  <header> <!-- Menú-->
-      <nav class="row nav-extended card-panel white z-depth-1">
-          <div class="row nav-wrapper card-panel white z-depth-0">
-              <a href="#" data-target="mobile-demo" class="col s1 m2 l3 sidenav-trigger"><i class="material-icons">menu</i></a>
-              <div class="col s10 m8 l6">
-                  <img class="materialboxed responsive-img valign-wrapper center-align" width="150" src="../assets/images/logo.png">
-              </div>              
-              <a href="#" data-target="mobile-demo" class="col s1 m2 l3 sidenav-trigger right"><i class="material-icons">search</i></a>
-          </div>
-          <div class="row nav-content">
-            <ul class="row tabs tabs-transparent">
-              <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">home</i></a></li>
-              <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">notifications_none</i></a></li>
-              <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">email</i></a></li>
-              <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">account_circle</i></a></li>
-            </ul>
-          </div>
-        </nav>    
-   </header>
+    <header> <!-- Menú-->
+      <nav class="row nav-extended white">
+        <div class="row nav-wrapper white header">
+            <div class="col s10 m8 l6">
+                <img class="materialboxed responsive-img valign-wrapper center-align" width="150" src="../assets/images/logo-viaja.png">
+            </div>  
+            <div class="row nav-wrapper">
+                <a href="#" class="col s1 m2 l3 right"><i class="material-icons">search</i></a>
+                <a href="#modalPost" class="col s1 m2 l3 right modal-trigger"><i class="material-icons">add_circle_outline</i></a>
+            </div>            
+         </div>
+         <div class="row nav-content">
+           <ul class="row tabs tabs-transparent">
+             <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">home</i></a></li>
+             <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">notifications_none</i></a></li>
+             <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">email</i></a></li>
+             <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">account_circle</i></a></li>
+           </ul>
+        </div>
+    </nav>      
+</header>
    <main> 
     <section><!--PRIMERA SECCIÓN Datos de usuario-->
         <div class="row">
           <div class="col s5 m5 l5 center-align">
-            <img class="circle responsive-img usuario" src="../assets/images/Usuario.jpg" alt="">
+            <img class="responsive-img usuario" src="../assets/images/Usuario.jpg" alt="">
           </div>
-            <div class="col s7 m7 l7">
-              <div class="card white z-depth-0">
-                <div class="card-content orange-text">
-                  <span class="card-title center-align">Nombre</span>
-                  <p class="left-alig">Descripción</p>
-                  <p class="left-alig">Mas información</p>
-                </div>
-              </div>
-            </div>
+          <div class="col s7 m7 l7">
+             <div class="card white z-depth-0">
+               <div class="card-content orange-text">
+                 <span class="card-title left-align">Nombre</span>
+                 <p class="left-alig">Descripción</p>
+                 <p class="left-alig">Mas información</p>
+               </div>
+             </div>
+          </div>
         </div>
-      </section><!--SEGUNDA SECCIÓN Fotos-->
-     <section>
-       <table>
-        <tbody>
-          <tr>
-            <td>Lugar</td>
-            <td><img class="imagen" src="assets/images/cañonsumiderochiapas.jpg" alt=""></td>
-          </tr>
-          <tr>
-              <td>Lugar</td>
-              <img class="imagen" src="assets/images/hierveelagua.jpg" alt="">
-          </tr>
-          <tr>
-              <td>Lugar</td>
-              <td><img class="imagen" src="assets/images/silitlasslp.jpg" alt=""></td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+      </section>
+      <section><!--SEGUNDA SECCIÓN Fotos-->
+          <table class="centered">
+              <tbody>
+                <tr class="row">
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/hierveelaguaoaxaca.jpg" alt=""></td>
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/cañonsumiderochiapas.jpg" alt=""></td>
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/xilitlaslp.jpg" alt=""></td>
+                </tr>
+                <tr class="row">
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/puerto-vallarta.jpg" alt=""></td>
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/sonora.jpg" alt=""></td>
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/Guadalajara.jpg" alt=""></td>
+                </tr>
+                <tr class="row">
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/colima.jpg" alt=""></td>
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/durango.jpg" alt=""></td>
+                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/michoacan.jpg" alt=""></td>
+                </tr>
+              </tbody>
+            </table>
+       </section>
    </main>
-    
-
-  
-    
-
-
-
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
