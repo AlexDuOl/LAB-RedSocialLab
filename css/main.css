@@ -37,6 +37,7 @@
 }
 
 .usuario {
+    border-radius: 100%;
     margin-left: 15%;
     padding-top: 10%;
     width: 80%;
@@ -44,6 +45,10 @@
 
 img .imagen {
     width: 70%;
+}
+
+.userPlace {
+    width: 100%;
 }
 
 /*Etiqueta*/
