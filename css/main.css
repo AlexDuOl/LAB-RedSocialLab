@@ -64,3 +64,41 @@ div p.etiqueta {
     padding-left: 4%;
 }
 
+
+.row.nav-wrapper.white.header {
+    border-bottom: 1px solid #dadada;
+}
+
+.col.s8.m8.l8.logo-cont {
+    padding: 1rem;
+}
+
+.usuario-m {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.row.usuario-row {
+    padding: 1rem 0;
+}
+
+img#user-photo {
+    border: 1px solid;
+}
+
+#user-name {
+    font-size: 16px;
+}
+
+.row.no-margin {
+    margin-bottom: 0;
+}
+
+.post-card {
+    border: 1px solid #dadada;
+}
+
+.viaje-img {
+    width: 100%;
+}
