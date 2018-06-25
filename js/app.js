@@ -1,17 +1,24 @@
-var imageUser;
 
-var config = {
-    apiKey: "AIzaSyApDpoaeUms46ufKn1l0Esp-4IvEPuaNyA",
-    authDomain: "vive-mexico-f7c49.firebaseapp.com",
-    databaseURL: "https://vive-mexico-f7c49.firebaseio.com",
-    projectId: "vive-mexico-f7c49",
-    storageBucket: "vive-mexico-f7c49.appspot.com",
-    messagingSenderId: "489916603655"
-  };
-  firebase.initializeApp(config);
+$(document).ready(function() {
+    // firebase
+    var config = {
+    	apiKey: "AIzaSyApDpoaeUms46ufKn1l0Esp-4IvEPuaNyA",
+    	authDomain: "vive-mexico-f7c49.firebaseapp.com",
+    	databaseURL: "https://vive-mexico-f7c49.firebaseio.com",
+    	projectId: "vive-mexico-f7c49",
+    	storageBucket: "vive-mexico-f7c49.appspot.com",
+    	messagingSenderId: "489916603655"
+    };
+    firebase.initializeApp(config);
+  
+  var finalTemplate = "";
+  finalTemplate = template.replace('__img1__', imageUser);
+  $('section').append(finalTemplate);
+  
+  var imageUser;
 
-firebase.database().ref("posts")
-.on("child_added", function(s){
+  firebase.database().ref("posts")
+  .on("child_added", function(s){
     var user = s.val();
     imageUser = user.imgv; 
     console.log(imageUser);
@@ -28,9 +35,5 @@ var template = '<table class="container">'+
                   '</tbody>'+
                 '</table>'+
 
+});
 
-$(document).ready( function () {
-    var finalTemplate = "";
-    finalTemplate = template.replace('__img1__', imageUser);
-    $('section').append(finalTemplate);
-} );
