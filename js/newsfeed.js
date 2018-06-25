@@ -150,7 +150,7 @@ $(document).ready(function() {
 	      </section>
 	    </div>
 	  </div>`
-	 $('main').append(postTemplate);
+	 $('main').prepend(postTemplate);
 	 $('.modal').modal('close');
 	}
 
