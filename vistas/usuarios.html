@@ -23,16 +23,16 @@
          </div>
          <div class="row nav-content">
            <ul class="row tabs tabs-transparent">
-             <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">home</i></a></li>
+             <li class="col s3 tab"><a href="newsfeed.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">home</i></a></li>
              <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">notifications_none</i></a></li>
              <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">email</i></a></li>
-             <li class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">account_circle</i></a></li>
+             <li id="user" class="col s3 tab"><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">account_circle</i></a></li>
            </ul>
         </div>
-    </nav>      
-</header>
+      </nav>      
+    </header>
    <main> 
-    <section><!--PRIMERA SECCIÓN Datos de usuario-->
+    <section class="container"><!--PRIMERA SECCIÓN Datos de usuario-->
         <div class="row">
           <div class="col s5 m5 l5 center-align">
             <img class="responsive-img usuario" src="../assets/images/Usuario.jpg" alt="">
@@ -49,31 +49,22 @@
         </div>
       </section>
       <section><!--SEGUNDA SECCIÓN Fotos-->
-          <table class="centered">
+         <!-- <table class="container">
               <tbody>
                 <tr class="row">
                   <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/hierveelaguaoaxaca.jpg" alt=""></td>
                   <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/cañonsumiderochiapas.jpg" alt=""></td>
                   <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/xilitlaslp.jpg" alt=""></td>
                 </tr>
-                <tr class="row">
-                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/puerto-vallarta.jpg" alt=""></td>
-                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/sonora.jpg" alt=""></td>
-                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/Guadalajara.jpg" alt=""></td>
-                </tr>
-                <tr class="row">
-                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/colima.jpg" alt=""></td>
-                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/durango.jpg" alt=""></td>
-                  <td class="col s4"><img class="userPlace responsive-img" src="../assets/images/michoacan.jpg" alt=""></td>
-                </tr>
-              </tbody>
-            </table>
+               </tbody>
+            </table>-->
        </section>
    </main>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://momentjs.com/downloads/moment.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
   <script src="../js/app.js"></script>
 </body>
 </html>
