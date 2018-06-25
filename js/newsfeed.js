@@ -23,6 +23,19 @@ $(document).ready(function() {
 		}
 	});
 
+	// leer base de datos
+	firebase.database().ref("posts")
+	.on("child_added", function(snapshot){
+		var newPost = snapshot.val();
+		dataURL = newPost.imgv;
+		displayName = newPost.nombre;
+		ubicacion =newPost.ubicacion;
+		date = newPost.fecha;
+
+		addPostData()
+		console.log(newPost);
+	});
+
 	var btnAdd = $('#add-post');
 	var foto;
 	var ubicacion;
@@ -41,7 +54,8 @@ $(document).ready(function() {
 		reader = new FileReader();
 		reader.onload = function(evt) {
 			dataURL = evt.target.result;
-			addPostData();
+			// addPostData();
+			savePostData();
 		}
 
 		reader.readAsDataURL(fileInput.files[0]);
@@ -131,7 +145,30 @@ $(document).ready(function() {
 	 $('.modal').modal('close');
 	}
 
+	console.log(dataURL);
+
+	// escribir en base de datos
+	function savePostData () {
+		var post = {
+				nombre:displayName,
+				ubicacion:ubicacion,
+				imgv:dataURL,
+				fecha:date,
+				ownerID:uid
+			};
+
+		firebase.database().ref("posts")
+		.push(post);
+	}
+
+
 	$('.modal').modal();
 	btnAdd.click(getPostData);
 	$('select').formSelect();
+
+	
+
+
+
+
 });
