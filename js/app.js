@@ -6,7 +6,7 @@ $(document).ready(function() {
     	databaseURL: "https://vive-mexico-f7c49.firebaseio.com",
     	projectId: "vive-mexico-f7c49",
     	storageBucket: "vive-mexico-f7c49.appspot.com",
-    	messagingSenderId: "489916603655"
+    	messagingSenderId: "489916603655",
     };
     firebase.initializeApp(config);
   

@@ -4,15 +4,11 @@ $(document).ready(function(){
 		console.log('login');
 		firebase.auth().signInWithPopup(provider).then(function(result) {
 			// obtener nobre y foto del usuario loggeado
+			console.log(result,"holi")
 
-			window.location = "vistas/newsfeed.html";
-		})
-
-		.catch(error => console.log(error));
+			window.location.href += "vistas/newsfeed.html";
+		}).catch(error => console.log(error));
 
 	});
-
-
-
 });
 
